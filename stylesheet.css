@@ -91,8 +91,8 @@ img {
     font-family: "Lora", sans-serif;
 }
 
-.button {
-    padding: 8px 32px;
+button {
+    padding: 8px 36px;
     border-radius: 9px;
     background-color:#3882F6;
     border: none;
@@ -185,4 +185,57 @@ img {
     font-size: 22px;
 }
 
+.whitebox {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 5%;
 
+}
+
+.call {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 9px;
+    width: 56%;
+    padding: 48px ;
+    flex-grow: 0;
+    justify-content: space-around;
+}
+
+.call-title {
+    display: flex;
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+    font-family: sans-serif;
+    margin: 0;
+
+}
+
+.call-subtitle {
+    display: flex;
+    font-size: 18px;
+    color: #F9FAF8;
+    font-family: "Lora", sans-serif;
+    margin: 0;
+}
+
+.call-button {
+    display: flex;
+    border: solid 2px #F9FAF8; 
+    align-items: center;
+    justify-content: center; 
+    margin-top: auto ;
+    margin-bottom: auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 40px;
+    font-size: 16px;
+}
